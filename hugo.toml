@@ -1,0 +1,36 @@
+baseURL = 'https://byungkwonc.github.io/'
+languageCode = 'en-us'
+title = "byungkwonc's blog"
+theme = "github-style"
+googleAnalytics = "G-X4VJXS86CB"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+lastmod = true
+pin = true
+mathJax = true
+
+[params]
+  author = "최병권"
+  description = ""
+  github = "byungkwonc"
+  facebook = ""
+  twitter = ""
+  linkedin = ""
+  instagram = ""
+  tumblr = ""
+  email = "byungkwonc@gmail.com"
+  url = "https://byungkwonc.github.io"
+  keywords = "blog, github, hugo"
+  rss = true
+  lastmod = true
+  favicon = "/images/github.png"
+  location = "South Korea"
+  userStatusEmoji = "😀"
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/byungkwonc"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+  katex = "math"
