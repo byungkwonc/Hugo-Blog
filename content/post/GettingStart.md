@@ -3,10 +3,13 @@ title = 'GettingStart'
 date = 2023-10-26T14:08:01+09:00
 draft = true
 +++
+
 # Hugo?
+
 >Hugo는 웹사이트를 간편하게 만들어 주는 정적 사이트 생성기 (Static Site Generator)중 하나
 
 # Install
+
 ```bash
 brew install hugo
 
@@ -39,8 +42,8 @@ http://localhost:1313/
 * [hugo theme](https://themes.gohugo.io/)
 ```bash
 git init
-git submodule add https://github.com/MeiK2333/github-style.git themes/github-style
-echo "theme = 'github-style'" >> hugo.toml
+git submodule add https://github.com/vjeantet/hugo-theme-docport.git themes/hugo-theme-docport
+echo "theme = 'hugo-theme-docport'" >> hugo.toml
 ```
 
 ### content 추가
@@ -63,7 +66,7 @@ hugo new content post/GettingStart.md
     - hugo로 빌드된 결과 파일들을 저장할 repository (sub)
 * repository 관리
     - git remote add origin [root repository url]
-    - git submodule add -b master [sub repository url] public
+    - git submodule add -b main [sub repository url] public
 
 # 출판
 * 전체 정적 컨텐츠를 public 디렉터리에 생성
@@ -72,7 +75,7 @@ hugo
 ```
 * theme 적용
 ```bash
-hugo -t github-style
+hugo -t hugo-theme-docport
 ```
 
 # 배포
@@ -80,10 +83,10 @@ hugo -t github-style
 ```bash
 git add .
 git commit -m "build commit"
-git push origin master
+git push origin main
 
 cd ..
 git add .
 git commit -m "build commit"
-git push origin master
+git push origin main
 ```

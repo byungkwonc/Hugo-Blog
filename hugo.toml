@@ -1,7 +1,7 @@
 baseURL = 'https://byungkwonc.github.io/'
 languageCode = 'en-us'
 title = "byungkwonc's blog"
-theme = "github-style"
+theme = "hugo-theme-docport"
 googleAnalytics = "G-X4VJXS86CB"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
