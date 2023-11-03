@@ -5,39 +5,39 @@ draft = true
 summary = "메인 소개 페이지"
 tags = ["developer",""]
 
-hidden = false  <!--Hide this page from menu-->
-pre = ""        <!--Prefix menu label with a text, an html...-->
-post = "👋"     <!--Suffix menu label with a text, an html...-->
-head = "<hr/>"  <!--Display this before the menu entry-->
-alwaysopen = true   <!--Keep this menu opened by default-->
+###### <!--Hide this page from menu-->
+hidden = false
+###### <!--Prefix menu label with a text, an html...-->
+pre = ""
+###### <!--Suffix menu label with a text, an html...-->
+post = "👋"
+###### <!--Display this before the menu entry-->
+head = "<hr/>"
+###### <!--Keep this menu opened by default-->
+alwaysopen = true
+###### <!--# order sections-->
+weight = 1
+###### <!--# Hide some page components
+###### [hide]
+###### - header
+###### - nav
+###### - breadcrumb
+###### - toc
+###### - nextpage
+###### - footer
 
-weight = 1      <!--# order sections-->
+###### <!--# usefull when you want to force a sub section to be considered as a subpage
+###### subpage: false 
 
-<!--# Hide some page components
-[hide]
-- header
-- nav
-- breadcrumb
-- toc
-- nextpage
-- footer
--->
+###### <!--# Redirect to another content
+###### Set a full URL or a .md path
+###### examples : 
+######  redirect = "https://github.com/vjeantet" 
+######  redirect = "folder" 
+######  redirect = "folder/_index.md" 
 
-<!--# usefull when you want to force a sub section to be considered as a subpage
-subpage: false 
--->
-
-<!--# Redirect to another content
-# Set a full URL or a .md path
-# examples : 
-#  redirect = "https://github.com/vjeantet" 
-#  redirect = "folder" 
-#  redirect = "folder/_index.md" 
--->
-
-<!--# Do not include this page in search results
-nosearch: true
--->
+###### <!--# Do not include this page in search results
+###### nosearch: true
 +++
 
 ## What is Jamstack?
