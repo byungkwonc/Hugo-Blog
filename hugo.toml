@@ -9,27 +9,22 @@ lastmod = true
 pin = true
 mathJax = true
 
-[params]
-  author = "최병권"
-  description = ""
-  github = "byungkwonc"
-  facebook = ""
-  twitter = ""
-  linkedin = ""
-  instagram = ""
-  tumblr = ""
-  email = "byungkwonc@gmail.com"
-  url = "https://byungkwonc.github.io"
-  keywords = "blog, github, hugo"
-  rss = true
-  lastmod = true
-  favicon = "/images/github.png"
-  location = "South Korea"
-  userStatusEmoji = "😀"
+[[menu.shortcuts]]
+name = "Github"
+identifier = "ds"
+url = "https://github.com/byungkwonc"
+weight = 10
 
-  [[params.links]]
-    title = "Link"
-    href = "https://github.com/byungkwonc"
+[[menu.shortcuts]]
+name = "Download"
+url = "https://github.com/byungkwonc/byungkwonc.github.io/archive/refs/tags/v0.1.zip"
+weight = 11
+
+[[menu.shortcuts]]
+name = "Hugo Documentation"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]

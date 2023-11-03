@@ -5,30 +5,39 @@ draft = true
 summary = "메인 소개 페이지"
 tags = ["developer",""]
 
-# order sections
-weight = 1
+hidden = false  <!--Hide this page from menu-->
+pre = ""        <!--Prefix menu label with a text, an html...-->
+post = "👋"     <!--Suffix menu label with a text, an html...-->
+head = "<hr/>"  <!--Display this before the menu entry-->
+alwaysopen = true   <!--Keep this menu opened by default-->
 
-# Hide some page components
-# hide =
-# - header
-# - nav
-# - breadcrumb
-# - toc
-# - nextpage
-# - footer
+weight = 1      <!--# order sections-->
 
-# subpage
-# subpage: false # usefull when you want to force a sub section to be considered as a subpage
+<!--# Hide some page components
+[hide]
+- header
+- nav
+- breadcrumb
+- toc
+- nextpage
+- footer
+-->
 
-# Redirect to another content
+<!--# usefull when you want to force a sub section to be considered as a subpage
+subpage: false 
+-->
+
+<!--# Redirect to another content
 # Set a full URL or a .md path
 # examples : 
 #  redirect = "https://github.com/vjeantet" 
 #  redirect = "folder" 
 #  redirect = "folder/_index.md" 
+-->
 
-# Do not include this page in search results
-# nosearch: true
+<!--# Do not include this page in search results
+nosearch: true
+-->
 +++
 
 ## What is Jamstack?
@@ -45,9 +54,9 @@ weight = 1
 >
 >[Static Site Generators for Jamstack Sites](https://jamstack.org/generators/)
 
-## ![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_of_Hugo_the_static_website_generator.svg/120px-Logo_of_Hugo_the_static_website_generator.svg.png)
+## HUGO
 
-|웹사이트|https://gohugo.io/|
+|![HUGO](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_of_Hugo_the_static_website_generator.svg/120px-Logo_of_Hugo_the_static_website_generator.svg.png "HUGO")|https://gohugo.io/|
 |----|:---|
 |발표일|2013-07-05|
 |저장소|https://github.com/gohugoio/hugo|

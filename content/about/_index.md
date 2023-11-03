@@ -10,7 +10,7 @@ theme = "league"
   controls = true
   history = false
   progress = true
-#  transition = concave
+  <!--transition = concave-->
 +++
 
 # In the morning
