@@ -4,11 +4,11 @@ date = 2023-10-26T14:08:01+09:00
 draft = true
 +++
 
-# Hugo?
+## Hugo?
 
 >Hugo는 웹사이트를 간편하게 만들어 주는 정적 사이트 생성기 (Static Site Generator)중 하나
 
-# Install
+## Install
 
 ```bash
 brew install hugo
@@ -16,7 +16,7 @@ brew install hugo
 hugo version
 ```
 
-# blog생성
+## blog생성
 ```bash
 hugo new site byungkwonc.github.io
 cd byungkwonc.github.io
@@ -56,7 +56,7 @@ hugo new content post/GettingStart.md
 * [font matter](https://gohugo.io/content-management/front-matter)
     - [ draft, future, and expired content](https://gohugo.io/getting-started/usage/#draft-future-and-expired-content)
 
-# 환경설정
+## 환경설정
 * hugo.toml : in the root of project
     - [site configuration](https://gohugo.io/getting-started/configuration/)
 
@@ -68,7 +68,7 @@ hugo new content post/GettingStart.md
     - git remote add origin [root repository url]
     - git submodule add -b main [sub repository url] public
 
-# 출판
+## 출판
 * 전체 정적 컨텐츠를 public 디렉터리에 생성
 ```bash
 hugo
@@ -78,7 +78,7 @@ hugo
 hugo -t hugo-theme-docport
 ```
 
-# 배포
+## 배포
 * public 경로에서
 ```bash
 git add .

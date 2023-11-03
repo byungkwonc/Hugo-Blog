@@ -1,9 +1,34 @@
 +++
-title = 'README'
+title = 'About this blog'
 date = 2023-10-25T18:40:32+09:00
 draft = true
 summary = "메인 소개 페이지"
 tags = ["developer",""]
+
+# order sections
+weight = 1
+
+# Hide some page components
+# hide =
+# - header
+# - nav
+# - breadcrumb
+# - toc
+# - nextpage
+# - footer
+
+# subpage
+# subpage: false # usefull when you want to force a sub section to be considered as a subpage
+
+# Redirect to another content
+# Set a full URL or a .md path
+# examples : 
+#  redirect = "https://github.com/vjeantet" 
+#  redirect = "folder" 
+#  redirect = "folder/_index.md" 
+
+# Do not include this page in search results
+# nosearch: true
 +++
 
 ## What is Jamstack?
