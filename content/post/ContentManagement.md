@@ -81,5 +81,5 @@ https://example.com/posts/index.html
 
 # [Shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes)
 - 내장 혹은 사용자 정의된 템플릿을 호출하는 컨텐트 파일내의 간단한 조각을 의미
-- https://youtu.be/2xkNJL4gJ9E
+- {{< youtube 2xkNJL4gJ9E >}}
 - {{< figure src="https://yt3.ggpht.com/AqqsRvRW2gJdF1zSQdTpo1_SF-hl_XLvgAFfS4wnABzf8ZjOXCTJSu8aG2tjwBxWGjMuUUIxuFY=s48-c-k-c0x00ffffff-no-rj" title="Giraffe Academy" >}}

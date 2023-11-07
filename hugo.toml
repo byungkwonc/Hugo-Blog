@@ -5,9 +5,6 @@ theme = "hugo-theme-docport"
 googleAnalytics = "G-X4VJXS86CB"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
-lastmod = true
-pin = true
-mathJax = true
 
 [params]
 color_main = "#B0B0B0"
@@ -33,4 +30,16 @@ weight = 20
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
-  katex = "math"
+
+# Code highlight configuration
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+hl_Lines = ""
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+noClasses = true
+style = "hugo-theme-docport"
+#style = "native"
+tabWidth = 2
