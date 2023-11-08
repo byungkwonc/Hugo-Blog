@@ -7,38 +7,43 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-color_main = "#B0B0B0"
-color_second = "red"
-disableNavChevron = true
+  color_main = "#B0B0B0"
+  color_second = "red"
+  disableNavChevron = true
 
 [[menu.shortcuts]]
-name = "Github"
-identifier = "ds"
-url = "https://github.com/byungkwonc"
-weight = 10
+  name = "Github"
+  identifier = "ds"
+  url = "https://github.com/byungkwonc"
+  weight = 10
 
 [[menu.shortcuts]]
-name = "Download"
-url = "https://github.com/byungkwonc/byungkwonc.github.io/archive/refs/tags/v0.1.zip"
-weight = 11
+  name = "Download"
+  url = "https://github.com/byungkwonc/byungkwonc.github.io/archive/refs/tags/v0.1.zip"
+  weight = 11
 
 [[menu.shortcuts]]
-name = "Hugo Documentation"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
-weight = 20
+  name = "Hugo Documentation"
+  identifier = "hugodoc"
+  url = "https://gohugo.io/"
+  weight = 20
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
 
-# Code highlight configuration
-[markup.highlight]
-codeFences = true
-guessSyntax = true
-hl_Lines = ""
-lineNoStart = 1
-lineNos = false
-lineNumbersInTable = false
-noClasses = true
-style = "hugo-theme-docport"
-tabWidth = 2
+[markup]
+  # Code highlight configuration
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokai'
+    tabWidth = 4

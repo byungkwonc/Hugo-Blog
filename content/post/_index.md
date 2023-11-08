@@ -1,7 +1,7 @@
 +++
 title = 'GettingStart'
 date = 2023-10-26T14:08:01+09:00
-draft = true
+draft = false
 +++
 
 ## Hugo?

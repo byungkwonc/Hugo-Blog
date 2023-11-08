@@ -1,7 +1,7 @@
 +++
 title = 'ContentManagement'
 date = 2023-11-01T15:40:00+09:00
-draft = true
+draft = false
 +++
 
 # [컨텐츠 구성](https://gohugo.io/content-management/organization/)

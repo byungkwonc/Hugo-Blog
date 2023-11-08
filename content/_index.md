@@ -1,7 +1,7 @@
 +++
 title = 'About this blog'
 date = 2023-10-25T18:40:32+09:00
-draft = true
+draft = false
 summary = "메인 소개 페이지"
 tags = ["developer",""]
 
