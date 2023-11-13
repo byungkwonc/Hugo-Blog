@@ -1,5 +1,5 @@
 +++
-title = 'GettingStart'
+title = 'Hugo'
 date = 2023-10-26T14:08:01+09:00
 draft = false
 +++
@@ -10,18 +10,17 @@ draft = false
 
 ## Install
 
-```bash
-#!/bin/bash
-brew install hugo
-
-hugo version
+```Bash
+    #!/bin/bash
+    brew install hugo
+    hugo version
 ```
 
 ## blog생성
 
-```bash
-hugo new site byungkwonc.github.io
-cd byungkwonc.github.io
+```Bash
+    hugo new site Hugo-Blog
+    cd Hugo-Blog
 ```
 
 ### 폴더구조
@@ -36,22 +35,22 @@ cd byungkwonc.github.io
 
 ### 테스트
 
-```bash
-hugo server -D
+```Bash
+    hugo server -D
 ```
 
-```bash
-http://localhost:1313/
+```Bash
+    http://localhost:1313/
 ```
 
 ### 태마적용
 
 * [hugo theme](https://themes.gohugo.io/)
 
-```bash
-git init
-git submodule add https://github.com/vjeantet/hugo-theme-docport.git themes/hugo-theme-docport
-echo "theme = 'hugo-theme-docport'" >> hugo.toml
+```Bash
+    git init
+    git submodule add https://github.com/vjeantet/hugo-theme-docport.git themes/hugo-theme-docport
+    echo "theme = 'hugo-theme-docport'" >> hugo.toml
 ```
 
 ### content 추가
@@ -59,8 +58,8 @@ echo "theme = 'hugo-theme-docport'" >> hugo.toml
 * content/post 폴더에 생성
     - github-style theme은 posts가 아닌 post폴더
 
-```bash
-hugo new content post/GettingStart.md
+```Bash
+    hugo new content post/GettingStart.md
 ```
 
 * [font matter](https://gohugo.io/content-management/front-matter)
@@ -84,27 +83,27 @@ hugo new content post/GettingStart.md
 
 * 전체 정적 컨텐츠를 public 디렉터리에 생성
 
-```bash
-hugo
+```Bash
+    hugo
 ```
 
 * theme 적용
 
-```bash
-hugo -t hugo-theme-docport
+```Bash
+    hugo -t hugo-theme-docport
 ```
 
 ## 배포
 
 * public 경로에서
 
-```bash
-git add .
-git commit -m "build commit"
-git push origin main
+```Bash
+    git add .
+    git commit -m "build commit"
+    git push origin main
 
-cd ..
-git add .
-git commit -m "build commit"
-git push origin main
+    cd ..
+    git add .
+    git commit -m "build commit"
+    git push origin main
 ```
