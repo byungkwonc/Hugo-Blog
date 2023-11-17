@@ -38,4 +38,4 @@ draft = false
     - local : `uvicorn app.main:app --reload`
 - deploy
     - https://slackbot-chatgpt.vercel.app/
-    - ![](/static/images/chatGptBot_Slack.png)
+    - ![](/images/chatGptBot_Slack.png)
